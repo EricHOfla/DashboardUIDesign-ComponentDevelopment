@@ -157,7 +157,7 @@ export const activities = [
     { Products: "MacBook Pro 16", Category: "Laptops", Date: "Dec 1, 2023" , status: "In Stock"},
     { Products: "iPhone 14", Category: "Smartphones", Date: "Dec 2, 2023" , status: "Out of Stock"},
     { Products: "Pixel 7", Category: "Smartphones", Date: "Dec 3, 2023" , status: "In Stock"},
-    { Products: "AirPods Pro", Category: "Accessories", Date: "Dec 4, 2023" , status: " Low Stock"},
+    { Products: "AirPods Pro", Category: "Accessories", Date: "Dec 4, 2023" , status: "Low Stock"},
     { Products: "PlayStation 5", Category: "Gaming Consoles", Date: "Dec 5, 2023" , status: "In Stock"}
   ];
 

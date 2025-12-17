@@ -26,26 +26,10 @@ const Dashboard = () => {
         <StatComponent />
         </div>
 
-        <div className="bg-white  rounded-xl p-5 mx-6">
-      <div className=" ">
-        <div className="border-b-2 border-gray-200 py-4 px-3">
+        <div className="px-6">
+        <RecentAddedProducts />
 
-        <h3 className="font-semibold text-lg">Recently Added Products</h3>
-        </div>
-        
-        <div className="p-4 grid grid-cols-1 md:grid-cols-3 gap-4 w-full ">
-            {recentProducts.map((products, index) => (
-              <RecentAddedProducts
-                key={index} 
-                Products={products.Products} 
-                Category={products.Category} 
-                Date={products.Date}
-                status={products.status}
-             />
-            ))}
-        </div>
-
-         </div>
+         
       </div>
       <div className="px-6">
         <UsersTable />

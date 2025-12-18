@@ -6,7 +6,7 @@ import DarkIcon from '@heroicons/react/24/solid/MoonIcon';
 
 const Topbar = () => {
   return (
-    <div className="bg-white p-5 rounded-xl flex justify-between items-center">
+    <div className="bg-white p-5 flex justify-between items-center">
       <div >
         <h2 className="text-2xl font-bold ">Dashboard</h2>
         <h3 className="text-l font-semibold">Welcome Back, Admin</h3>

@@ -5,7 +5,7 @@ const StatComponent = () => {
   return (
     <div className='flex gap-6 flex-wrap'>
        {statsData.map((stat, index) => (
-        <div key={index} className="bg-white p-6 rounded-xl shadow-sm flex items-center space-x-4">
+        <div key={index} className="bg-white p-6 w-70 rounded-xl shadow-sm flex items-center space-x-4">
           <div className={`p-3 rounded-lg ${stat.iconBg}`}>{stat.icon}</div>
           <div>
             
